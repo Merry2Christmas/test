@@ -8,6 +8,11 @@ export const routes: RouteRecordRaw[] = [
     component: () => import("@/pages/Home.vue"),
   },
   {
+    path: "/2",
+    name: "Home2",
+    component: () => import("@/pages/Home2.vue"),
+  },
+  {
     path: "/:pathMatch(.*)",
     name: "root404",
     component: () => import("@/pages/PageNotFound404/PageNotFound404.vue"),

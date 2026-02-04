@@ -1,7 +1,9 @@
 <script setup lang="ts">
-import { RouterView } from "vue-router";
+import { ref, onMounted } from "vue";
 </script>
 
-<template>HOME</template>
+<template>
+  <div>Home</div>
+</template>
 
 <style scoped></style>

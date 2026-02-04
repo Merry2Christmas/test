@@ -10,7 +10,9 @@ const toggleTheme = () => {
 </script>
 
 <template>
-  {{ isDarkMode ? "黑暗模式" : "明亮模式" }}
+  <span style="color: var(--color-text-1)">
+    {{ isDarkMode ? "黑暗模式" : "明亮模式" }}
+  </span>
   <a-switch
     :checked="isDarkMode"
     checked-text="暗黑"
